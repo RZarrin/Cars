@@ -46,9 +46,9 @@ ul {
     line-height: 18px;
     color: #FFFFFF;
 }
-.header__nav-link:hover{
+/*.header__nav-link:hover{
     
-}
+}*/
 .main__cars{
     margin-top: 30px;
     display: grid;
@@ -84,4 +84,7 @@ ul {
     font-size: 26px;
     line-height: 36px;
     color: #FFFFFF;
+}
+body {
+    background: #F2F2F2;
 }
