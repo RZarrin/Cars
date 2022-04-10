@@ -16,3 +16,72 @@ ul {
     margin: 0 auto;
     padding: 0 15px;
 }
+.header__nav {
+    background: #000000;
+    padding: 34px 0;
+}
+.header__top {
+    display: flex;
+    justify-content: space-around;
+}
+.header__nav-list {
+    display: flex;
+    gap: 30px;
+}
+.logo {
+    font-size: 14px;
+    line-height: 17px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.logo__span {
+    background: #4a90e2;
+    border-radius: 3px;
+    padding: 5px;
+}
+.header__nav-link {
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.header__nav-link:hover{
+    
+}
+.main__cars{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr );
+    grid-auto-rows: 265px; /*высота по умолчанию для всех*/
+    gap: 30px;
+}
+.main__cars-item {
+    position: relative;
+    padding: 30px 20px; /*верх-низ и бок*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main__cars-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -5;
+    object-fit: cover;
+}
+.main__cars-item:first-of-type{
+    grid-row: span 2; /*чтоб первый элемент занял два ряда*/
+}
+.main__cars-text{
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.main__cars-title{
+    font-size: 26px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
